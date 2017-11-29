@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family: "楷体";
+    font-size:.14rem;
+    text-decoration: none;
+}
+body,html,.wrap{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+html{
+    font-size:625%;
+}
+.wrap{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    width:100%;
+    height:.5rem;
+    background: #393a3f;
+    display: flex;
+}
+.header span{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:#fff;
+}
+.header span:nth-child(1){
+    margin-left:.15rem;
+    border-right:1px solid #303136;
+    padding-right:.2rem;
+    font-size: .23rem;
+
+}
+.header span:nth-child(2){
+    flex:1;
+    margin-left:.25rem;
+    font-size:.18rem;
+}
+.header span:nth-child(3) i.icon{
+    margin-right:.15rem;
+    font-size:.23rem;
+}
+.section{
+    flex:1;
+    background: #808e9b;
+}
+.section .cont{
+    width:90%;
+    height:80%;
+    border-radius: .15rem;
+    margin:10% 5%;
+    background: #fff;
+}
+.section .cont h3{
+    width:100%;
+    height:auto;
+    padding-top:.2rem;
+    text-align: center;
+}
+.section .cont h3 img{
+    width:50%;
+    height:auto;
+}
+.section .cont h2{
+    width:100%;
+    height:.3rem;
+    padding-top:.05rem;
+    text-align: center;
+   
+}
+.section .cont h2 b{
+    width:100%;
+    height:.3rem;
+     font-size: .19rem;
+}
+.section form{
+    margin-top:.3rem;
+    width:90%;
+    padding:0 5%;
+    position:relative;
+    
+}
+.section .cont form img{
+    width:.2rem;
+    height:auto;
+    position:absolute;
+    left:10%;
+    top:17%;
+}
+.section .cont form .imgs{
+    width:.2rem;
+    height:auto;
+    position:absolute;
+    left:10%;
+    top:48%;
+}
+.section form input{
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:80%;
+    height:.4rem;
+    margin-top:.4rem;  
+    margin-left:.5rem; 
+    font-size:.17rem;
+}
+.section form button{
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:90%;
+    margin:.35rem 5%;
+    background: #2fba77;
+    height:.4rem;
+    color:#fff;
+    border-radius: .05rem; 
+}
